@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" rx="20" ry="20">
+  <!-- Fundo amarelo com bordas arredondadas -->
+  <rect x="0" y="0" width="500" height="150" fill="#FFD700" rx="20" ry="20" />
+
+  <!-- Blocos azuis -->
+  <rect x="10" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="60" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="110" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="160" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="210" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="260" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="310" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="360" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="410" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="460" y="10" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  
+  <rect x="35" y="40" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="85" y="40" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="135" y="40" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="185" y="40" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="235" y="40" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="285" y="40" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="335" y="40" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="385" y="40" width="40" height="20" fill="#000080" rx="5" ry="5" />
+  <rect x="435" y="40" width="40" height="20" fill="#000080" rx="5" ry="5" />
+
+  <!-- Texto Mari & Freitas em vermelho -->
+  <text x="250" y="100" font-family="Arial" font-size="48" fill="#FF0000" font-weight="bold" text-anchor="middle">
+    MARI & FREITAS
+  </text>
+
+  <!-- Faixa vermelha -->
+  <rect x="0" y="150" width="500" height="50" fill="#FF0000" rx="20" ry="20" />
+  
+  <!-- Texto "Indústria de Blocos" em branco -->
+  <text x="250" y="185" font-family="Arial" font-size="28" fill="white" font-weight="bold" text-anchor="middle">
+    Indústria de Blocos
+  </text>
+</svg>
