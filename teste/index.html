@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fábrica de Blocos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Fábrica de Blocos XYZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Quem Somos</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Início -->
+    <section id="home" class="section">
+        <h2>Bem-vindo à Fábrica de Blocos XYZ</h2>
+        <p>Qualidade e durabilidade em blocos para construção civil.</p>
+    </section>
+
+    <!-- Seção Quem Somos -->
+    <section id="about" class="section">
+        <h2>Quem Somos</h2>
+        <p>Somos uma fábrica dedicada a fornecer os melhores blocos para construção, com anos de experiência no mercado.</p>
+    </section>
+
+    <!-- Seção Produtos -->
+    <section id="products" class="section">
+        <h2>Nossos Produtos</h2>
+        <div class="product">
+            <h3>Blocos de Concreto</h3>
+            <p>Blocos de alta resistência, ideais para qualquer tipo de construção.</p>
+        </div>
+        <div class="product">
+            <h3>Blocos de Cimento Decorativos</h3>
+            <p>Perfeitos para uso em fachadas e jardins, com acabamento superior.</p>
+        </div>
+        <div class="product">
+            <h3>Blocos Térmicos</h3>
+            <p>Blocos que proporcionam isolamento térmico e acústico.</p>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="services" class="section">
+        <h2>Nossos Serviços</h2>
+        <p>Oferecemos consultoria, entrega e suporte na escolha dos blocos ideais para o seu projeto.</p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="section">
+        <h2>Contato</h2>
+        <p>Entre em contacto connosco para mais informações.</p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="contactMessage"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
