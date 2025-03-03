@@ -11892,3 +11892,7 @@ fieldset:disabled .btn {
   width: 4rem;
   font-size: 2rem;
 }
+
+.fa-home {
+  font-size: 20px;
+}
